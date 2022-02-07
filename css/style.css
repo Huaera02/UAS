@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+   
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color:#041562;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid#041562;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic Sans ms';
+    color: #041562;
+}
+
+h2{
+    font-family: 'Comic Sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #041562;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background-color: #1A1A40;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #548CFF;
+    text-decoration: none;
+}
+a.tbl-pink{
+    background-color: #CE2E6C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #548CFF;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.medsos-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.semua-medsos{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.semua-medsos img{
+    width: 150px;
+    border-radius: 10%;
+}
+
+
+
